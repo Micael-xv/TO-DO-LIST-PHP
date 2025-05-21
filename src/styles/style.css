@@ -85,6 +85,45 @@ body {
   border-radius: 4px;
 }
 
+.task .progress {
+  margin-right: 10px;
+}
+
+.task .progress.done + .task-description {
+  text-decoration: line-through;
+  color: #e5f9ffa7;
+}
+
+.task .task-description {
+  font-size: 16px;
+  color: #fff;
+  padding: 4px 0px;
+  width: 100%;
+}
+
+.task .task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  font-size: 16px;
+}
+
+.action-button.edit-button {
+  color: #6c9bbc;
+}
+
+.action-button.delete-button {
+  color: #ee9ca7;
+}
+
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  #to_do {
+    width: 300px;
+  }
 }
