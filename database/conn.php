@@ -1,7 +1,7 @@
 <?php
 
 $hostname = 'localhost';
-$database = 'to do php';
+$database = 'to_do';
 $username = 'postgres';
 $password = '';
 
